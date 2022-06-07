@@ -16,13 +16,13 @@ function Navigation() {
             Follow - Fb. / Tw. / In.
         </div>
         <div className={classes.logo}>
-            <Link to='/' >
+            <Link to='/fifth' >
                 <img src={logo} alt="Logo" />
             </Link>
         </div>
         <div className={classes.navIcon}>
             <Search/>
-            <Link to='cart'>
+            <Link to='/fifth/cart'>
                 <img src={shopBag} alt="shop bag" />
                 <span className={classes.badge}>{orderCtx.totalOrders}</span>
             </Link>

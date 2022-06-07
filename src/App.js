@@ -6,10 +6,10 @@ import FifthStore from './pages/FifthStore';
 function App() {
   return (
     <Layout>
-
+      
      <Routes>
-       <Route path='/' element ={<FifthStore/>} />
-       <Route path='cart' element = {<FifthCart/>} />
+       <Route  path='/fifth'  element ={<FifthStore/>} />
+       <Route path='/fifth/cart' element = {<FifthCart/>} />
      </Routes>
      
     </Layout>
